@@ -1,27 +1,42 @@
-<meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vai perder essa tambem??</title>
+    <title>Não deixe escapar!</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            display: grid;
+            place-items: center;
             height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #fdfdfd;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0a0a0a;
+            color: #ffffff;
+        }
+        .button-container {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 10px;
         }
         a {
-            font-size: 24px;
-            color: #fea100;
+            font-size: 28px;
+            color: #00ffcc;
             text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #00ffcc;
+            border-radius: 5px;
+            transition: all 0.3s ease;
         }
         a:hover {
-            text-decoration: underline;
+            background-color: #00ffcc;
+            color: #0a0a0a;
         }
     </style>
 </head>
 <body>
-    <a href="https://www.usereserva.com/">SAIBA MAIS</a>
+    <div class="button-container">
+        <a href="https://www.prada.com/">DESCUBRA MAIS</a>
+    </div>
 </body>
 </html>
